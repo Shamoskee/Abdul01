@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html >
+<head> 
+    <title>Simple Photo Gallery</title> 
+
+    <style>          
+      .photoDiv 
+      {
+            border: 5px transparent rgb(0, 132, 255);           
+      }
+        </style>  
+    
+    <script src="http://code.angularjs.org/1.2.0rc1/angular.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="Script.js"></script>
+    
+</head>
+<body ng-app="photoGalleryModule" ng-controller="photoGalleryCtrl">
+    <div style="width: 70%; margin: 0 auto;"> 
+    	<center><font color="blue">My Gallery</font></center>    
+        <div id="divPhoto" class="photoDiv"></div>
+
+    </div> 
+</body>
+</html>
